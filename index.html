@@ -1,42 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Página inicial</title>
 </head>
-<body>
-    <div class="conteiner">
-        <header>
-            <nav>
-                <div class="nav-conteiner">
-                    <img id="logo" src="img/logo.png" alt="Omni" width="200">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Localização</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Fale conosco</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <div id="main-banner">
-                <div id="search-form">
-                    <h1>Pare de chutar o computador, contrate Omni Soluções</h1>
-                    <p>Contrate nossos serviços e pare de ter dor de cabeça</p>
-                    <form>
-                        <input type="text" name="pesquisa" id="Digite aqui sua pesquisa">
-                        <select name="servicos">
-                            <option value="">Todos os serviços</option>
-                        </select>
-                        <select name="categoria">
-                            <option value="">Categoria</option>
-                        </select>
-                        <input type="submit" value="Pesquisar">
-                    </form>
-                </div>
+    <body>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <div class="nav-container">
+            <div class="nav-buttons">
+                <div class="nav-button"><button class="nv-btn" onclick="location.href='#'" type="button">Home</button></div>
+                <div class="nav-button"><button class="nv-btn" onclick="location.href='#'" type="button">Sobre</button></div>
+                <div class="nav-button"><button class="nv-btn" onclick="location.href='#'" type="button">Localização</button></div>
+                <div class="nav-button"><button class="nv-btn" onclick="location.href='#'" type="button">Fale conosco</button></div>
+        </div>
+        <div class="nav-login">
+            <div class="login"><button class="nv-log" onclick="location.href='#'" type="button"><i
+                        class="material-icons">person</i></button>
             </div>
-        </header>
-    </div>
-</body>
+        </div>
+    </body>
+
 </html>
